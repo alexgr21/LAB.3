@@ -9,9 +9,11 @@ int main()
         printf("\nInput the angle value: ");
         scanf("%i", &angle);
         if(angle >= 0 && angle <= 90)
-        {   test = 1;
-            printf("\nThe value is good");}
+        {   
+            test = 1;
+            printf("\nThe value is good");
+        }
         else
             printf("\nThe value not good, input another\n");
-    }while(test == 0);
+      }while(test == 0);
 }
